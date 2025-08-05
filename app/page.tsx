@@ -5,6 +5,7 @@ import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import Chatbot from '@/components/Chatbot'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Contact />
         <Footer />
       </div>
+      <Chatbot />
     </main>
   )
 }

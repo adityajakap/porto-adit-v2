@@ -50,7 +50,7 @@ export default function Hero() {
                 </a>
                 <a
                   href="#contact"
-                  className="group relative bg-white/10 backdrop-blur-xl border border-white/30 text-white px-8 py-4 rounded-2xl font-medium transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-2xl hover:shadow-white/10"
+                  className="group relative xbg-white/10 backdrop-blur-xl border border-white/30 text-white px-8 py-4 rounded-2xl font-medium transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-2xl hover:shadow-white/10"
                 >
                   <span className="relative z-10">Contact Me</span>
                 </a>
