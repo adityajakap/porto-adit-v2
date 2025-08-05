@@ -26,20 +26,22 @@ export default function About() {
             </p>
             
             <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-2xl hover:bg-white/10 transition-all duration-300 hover:scale-105">
+                <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-2xl hover:bg-white/10 transition-all duration-300 hover:scale-105">
                 <h4 className="font-semibold text-white mb-2 drop-shadow-md">Experience</h4>
-                <p className="text-white/80">2+ Years</p>
+                <p className="text-[#62d7dd] text-2xl font-bold drop-shadow-sm">2+ Years</p>
+                <p className="text-white/60 text-sm">Web Development</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-2xl hover:bg-white/10 transition-all duration-300 hover:scale-105">
                 <h4 className="font-semibold text-white mb-2 drop-shadow-md">Projects</h4>
-                <p className="text-white/80">20+ Completed</p>
+                <p className="text-[#ede9e6] text-2xl font-bold drop-shadow-sm">20+</p>
+                <p className="text-white/60 text-sm">Completed</p>
               </div>
             </div>
           </div>
           
           <div className="relative">
-            <div className="bg-gradient-to-br from-pink-500/20 via-purple-500/20 to-cyan-500/20 backdrop-blur-xl border border-white/20 rounded-3xl p-8 text-white shadow-2xl shadow-black/20 hover:scale-105 transition-all duration-300">
-              <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 via-purple-500/10 to-cyan-500/10 rounded-3xl blur-xl"></div>
+            <div className="bg-white/5 backdrop-blur-xl border border-white/20 rounded-3xl p-8 text-white shadow-2xl shadow-black/20 hover:scale-105 transition-all duration-300">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#62d7dd]/10 to-[#706f6e]/10 rounded-3xl blur-xl"></div>
               <div className="relative z-10">
                 <h3 className="text-xl font-bold mb-4 drop-shadow-lg">What I Do</h3>
                 <ul className="space-y-3">

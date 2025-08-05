@@ -6,7 +6,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="text-xl font-bold text-white drop-shadow-lg">
-            Aditya Jaka
+            Built By Adit🚀
           </Link>
           
           <nav className="hidden md:flex space-x-8">

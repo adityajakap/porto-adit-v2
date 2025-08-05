@@ -13,30 +13,30 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce platform built with Next.js, featuring user authentication, payment integration, and admin dashboard.',
+    title: 'Website Profile Sarifah Ainun Jariyah, DPR RI',
+    description: 'A comprehensive political figure profile website featuring responsive design, content management system, and optimized performance for public engagement.',
     image: '/project1.jpg',
-    technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Stripe'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/username/project'
+    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Tailwind CSS'],
+    liveUrl: 'https://sarifahainunjariyah.com',
+    githubUrl: 'https://github.com/username/sarifah-profile'
   },
   {
     id: 2,
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+    title: 'Ultimate Adventure Website - PT Ultima Nusantara',
+    description: 'A dynamic adventure tourism platform with booking system and interactive tour packages showcase.',
     image: '/project2.jpg',
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/username/project'
+    technologies: ['Laravel', 'Tailwind CSS', 'MySQL'],
+    liveUrl: 'https://ultimaadventure.com',
+    githubUrl: 'https://github.com/username/ultima-adventure'
   },
   {
     id: 3,
-    title: 'Weather Dashboard',
-    description: 'A responsive weather dashboard that provides real-time weather data and forecasts with beautiful visualizations.',
+    title: 'Fullstack Developer, Website Badan Kesbangpol Kabupaten Cianjur',
+    description: 'A comprehensive website for the Badan Kesbangpol of Cianjur, featuring a modern design and user-friendly interface.',
     image: '/project3.jpg',
-    technologies: ['Vue.js', 'Chart.js', 'OpenWeather API', 'Tailwind CSS'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/username/project'
+    technologies: ['Laravel', 'Tailwind CSS', 'MySQL'],
+    liveUrl: '#',
+    githubUrl: '#'
   }
 ]
 
@@ -57,12 +57,12 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div 
               key={project.id} 
-              className="group bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-500 shadow-2xl shadow-black/20 hover:shadow-purple-500/20"
+              className="group bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-500 shadow-2xl shadow-black/20 hover:shadow-cyan-500/20"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="relative h-48 bg-gradient-to-br from-purple-500/20 to-cyan-500/20 overflow-hidden">
+              <div className="relative h-48 bg-gradient-to-br from-[#62d7dd]/20 to-[#706f6e]/20 overflow-hidden">
                 {/* Glow effect on hover */}
-                <div className="absolute inset-0 bg-gradient-to-br from-pink-500/20 via-purple-500/20 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#62d7dd]/20 to-[#706f6e]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="absolute inset-0 flex items-center justify-center text-white/60 font-medium">
                   <div className="text-center">
                     <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-2 mx-auto backdrop-blur-sm border border-white/30">
@@ -76,7 +76,7 @@ export default function Projects() {
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2 drop-shadow-md group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-pink-400 group-hover:to-cyan-400 transition-all duration-300">
+                <h3 className="text-xl font-bold text-white mb-2 drop-shadow-md group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#62d7dd] group-hover:to-[#706f6e] transition-all duration-300">
                   {project.title}
                 </h3>
                 <p className="text-white/80 mb-4 leading-relaxed">
@@ -100,7 +100,7 @@ export default function Projects() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group/link text-cyan-400 hover:text-cyan-300 font-medium transition-all duration-300 hover:drop-shadow-lg flex items-center gap-1"
+                      className="group/link text-[#62d7dd] hover:text-[#4fc3c9] font-medium transition-all duration-300 hover:drop-shadow-lg flex items-center gap-1"
                     >
                       Live Demo
                       <svg className="w-4 h-4 group-hover/link:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-6 hover:scale-105 transition-all duration-300 shadow-lg shadow-black/20">
-            <h3 className="text-xl font-bold mb-4 drop-shadow-lg text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-cyan-400">
+            <h3 className="text-xl font-bold mb-4 drop-shadow-lg text-transparent bg-clip-text bg-gradient-to-r from-[#62d7dd] to-[#706f6e]">
               Aditya Jaka Prasaja
             </h3>
             <p className="text-white/80 mb-4 leading-relaxed">
@@ -34,25 +34,25 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a href="#about" className="group text-white/70 hover:text-white transition-all duration-300 hover:translate-x-2 inline-flex items-center gap-2">
-                  <span className="w-2 h-2 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                  <span className="w-2 h-2 bg-gradient-to-r from-[#62d7dd] to-[#706f6e] rounded-full group-hover:scale-125 transition-transform duration-300"></span>
                   About
                 </a>
               </li>
               <li>
                 <a href="#projects" className="group text-white/70 hover:text-white transition-all duration-300 hover:translate-x-2 inline-flex items-center gap-2">
-                  <span className="w-2 h-2 bg-gradient-to-r from-purple-400 to-cyan-400 rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                  <span className="w-2 h-2 bg-gradient-to-r from-[#706f6e] to-[#62d7dd] rounded-full group-hover:scale-125 transition-transform duration-300"></span>
                   Projects
                 </a>
               </li>
               <li>
                 <a href="#skills" className="group text-white/70 hover:text-white transition-all duration-300 hover:translate-x-2 inline-flex items-center gap-2">
-                  <span className="w-2 h-2 bg-gradient-to-r from-cyan-400 to-pink-400 rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                  <span className="w-2 h-2 bg-gradient-to-r from-[#62d7dd] to-[#706f6e] rounded-full group-hover:scale-125 transition-transform duration-300"></span>
                   Skills
                 </a>
               </li>
               <li>
                 <a href="#contact" className="group text-white/70 hover:text-white transition-all duration-300 hover:translate-x-2 inline-flex items-center gap-2">
-                  <span className="w-2 h-2 bg-gradient-to-r from-pink-400 to-cyan-400 rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                  <span className="w-2 h-2 bg-gradient-to-r from-[#706f6e] to-[#62d7dd] rounded-full group-hover:scale-125 transition-transform duration-300"></span>
                   Contact
                 </a>
               </li>
@@ -63,12 +63,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4 drop-shadow-md">Get In Touch</h4>
             <div className="space-y-3">
               <p className="text-white/80 flex items-center gap-2">
-                <span className="w-2 h-2 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full animate-pulse"></span>
-                aditya@example.com
+                <span className="w-2 h-2 bg-gradient-to-r from-[#62d7dd] to-[#706f6e] rounded-full animate-pulse"></span>
+                aditya.jakap12@gmail.com
               </p>
               <p className="text-white/80 flex items-center gap-2">
-                <span className="w-2 h-2 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full animate-pulse delay-300"></span>
-                Jakarta, Indonesia
+                <span className="w-2 h-2 bg-gradient-to-r from-[#706f6e] to-[#62d7dd] rounded-full animate-pulse delay-300"></span>
+                Bandung, Indonesia
               </p>
             </div>
           </div>
@@ -76,11 +76,11 @@ export default function Footer() {
         
         <div className="border-t border-white/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/70 text-sm flex items-center gap-2">
-            <span className="w-2 h-2 bg-gradient-to-r from-pink-400 to-cyan-400 rounded-full animate-pulse"></span>
+            <span className="w-2 h-2 bg-gradient-to-r from-[#62d7dd] to-[#706f6e] rounded-full animate-pulse"></span>
             © 2025 Aditya Jaka. All rights reserved.
           </p>
           <p className="text-white/70 text-sm mt-4 md:mt-0 flex items-center gap-2">
-            <span className="w-2 h-2 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full animate-pulse delay-700"></span>
+            <span className="w-2 h-2 bg-gradient-to-r from-[#706f6e] to-[#62d7dd] rounded-full animate-pulse delay-700"></span>
             Built with Next.js & Tailwind CSS
           </p>
         </div>

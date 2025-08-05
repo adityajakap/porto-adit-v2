@@ -2,8 +2,8 @@ export const personalInfo = {
   name: 'Aditya Jaka',
   title: 'Full Stack Developer',
   description: 'I create beautiful, responsive web applications and user experiences that solve real-world problems.',
-  email: 'aditya@example.com',
-  location: 'Jakarta, Indonesia',
+  email: 'aditya.jakap12@gmail.com',
+  location: 'Bandung, Indonesia',
   linkedin: 'https://linkedin.com/in/aditya-jaka',
   github: 'https://github.com/aditya-jaka',
   twitter: 'https://twitter.com/aditya_jaka'
